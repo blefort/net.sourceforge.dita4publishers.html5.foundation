@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+       Licensed to the Apache Software Foundation (ASF) under one
+       or more contributor license agreements.  See the NOTICE file
+       distributed with this work for additional information
+       regarding copyright ownership.  The ASF licenses this file
+       to you under the Apache License, Version 2.0 (the
+       "License"); you may not use this file except in compliance
+       with the License.  You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+       Unless required by applicable law or agreed to in writing,
+       software distributed under the License is distributed on an
+       "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+       KIND, either express or implied.  See the License for the
+       specific language governing permissions and limitations
+       under the License.
+-->
+<html5>
+  <!--
+
+    Every CSS below this marker should be easely reusable
+
+  -->
+  <!-- Core -->
+  <tag>
+    <name>link</name>
+    <output>yes</output>
+    <filename>style.css</filename>
+    <prefix></prefix>
+    <suffix></suffix>
+    <attributes>
+        <rel>stylesheet</rel>
+        <type>text/css</type>
+        <media>screen, projection</media>
+    </attributes>
+    <value></value>
+    <source>
+      <file path="themes/html5-foundation/css/foundation.css" />
+      <file path="themes/html5-foundation/css/typography.css" />
+    </source>
+  </tag>
+
+  <tag>
+    <name>link</name>
+    <output>yes</output>
+    <prefix></prefix>
+    <suffix></suffix>
+    <attributes>
+      <rel>stylesheet</rel>
+      <type>text/css</type>
+      <media>screen, projection, print</media>
+      <src>http://fonts.googleapis.com/css?family=Open+Sans</src>
+    </attributes>
+    <value></value>
+  </tag>
+
+  <tag>
+    <name>script</name>
+    <output>yes</output>
+    <prefix></prefix>
+    <suffix></suffix>
+    <attributes>
+      <rel>stylesheet</rel>
+      <type>text/css</type>
+      <media>screen, projection, print</media>
+      <src>http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML</src>
+    </attributes>
+    <value></value>
+  </tag>
+
+  <tag>
+    <name>script</name>
+    <output>yes</output>
+    <filename>script.js</filename>
+    <prefix></prefix>
+    <suffix></suffix>
+    <attributes>
+        <type>text/javascript</type>
+    </attributes>
+    <value></value>
+    <source>
+
+      <file path="themes/html5-foundation/js/modernizr.js" />
+      <file path="themes/html5-foundation/js/jquery.js" />
+      <file path="themes/html5-foundation/js/foundation.min.js" />
+
+
+
+    </source>
+  </tag>
+
+  <!--
+    external libraries, stored locally
+    you could use the latest CDN instead
+  -->
+
+  <d4p>
+    <init>false</init>
+  </d4p>
+
+  <class>
+    <body>img-with-shadow</body>
+    <navigation>grid_4 alpha omega</navigation>
+    <main>
+      <content>grid_8 alpha omega</content>
+    </main>
+    <section>
+      <container>grid_12</container>
+    </section>
+  </class>
+
+  <search>
+    <action></action>
+    <placeholder>Search the documentation...</placeholder>
+    <inputs>
+      <!-- add all inputs elements you want in the search form -->
+    </inputs>
+  </search>
+
+</html5>

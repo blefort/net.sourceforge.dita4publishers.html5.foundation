@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="net.sourceforge.dita4publishers.html5.foundation">
+
+  <require plugin="net.sourceforge.dita4publishers.html5" />
+  
+  <template file="build_foundation_html5_template.xml" />
+  <template file="xsl/map2foundation_template.xsl" />
+    
+  <feature extension="dita.conductor.transtype.check" value="foundation" type="txt" />
+  <feature extension="dita.conductor.target.relative" file="build.xml" type="file" />
+  <feature extension="dita.html5.map" value="parameters.xml" type="file" />
+  <feature extension="dita.xsl.strings" value="strings/strings.xml" type="file"/>
+  <feature extension="xsl.transtype-html5" value="xsl/custom-all-html5-transforms.xsl" type="file" />
+    
+</plugin>

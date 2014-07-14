@@ -1,0 +1,3 @@
+<project>
+  <import file="build_foundation_html5.xml" />
+</project>

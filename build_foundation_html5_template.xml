@@ -1,0 +1,20 @@
+<project name="dita2foundation" default="dita2foundation" xmlns:dita="http://dita-ot.sourceforge.net">
+
+  <property name="transtype" value="foundation"/>
+  <dirname property="dita2foundation.dir" file="${ant.file.dita2foundation}"/>
+
+  <target name="dita2foundation"
+    xmlns:dita="http://dita-ot.sourceforge.net"
+    dita:extension="depends org.dita.dost.platform.InsertDependsAction">
+
+    <antcall target="dita2d4p-html5">
+      <param name="map2html5.style" value="${dita2foundation.dir}/xsl/map2foundation.xsl"/>
+      <param name="html5.site.theme" value="html5-foundation" />
+      <param name="html5.theme.config.dir" value="${dita2foundation.dir}/theme" />
+      <param name="html5.theme.dir" value="${dita2foundation.dir}/themes/html5-foundation" />
+      <param name="html5.grid.prefix" value="large-" />
+    </antcall>
+
+  </target>
+
+</project>

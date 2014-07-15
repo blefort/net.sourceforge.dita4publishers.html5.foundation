@@ -37,8 +37,9 @@
     </attributes>
     <value></value>
     <source>
+      <file path="themes/html5-foundation/css/app.css" />
       <file path="themes/html5-foundation/css/foundation.css" />
-      <file path="themes/html5-foundation/css/typography.css" />
+      <file path="themes/html5-foundation/css/normalize.css" />
     </source>
   </tag>
 
@@ -81,12 +82,9 @@
     </attributes>
     <value></value>
     <source>
-
-      <file path="themes/html5-foundation/js/modernizr.js" />
       <file path="themes/html5-foundation/js/jquery.js" />
+      <!--file path="themes/html5-foundation/js/modernizr.js" /-->
       <file path="themes/html5-foundation/js/foundation.min.js" />
-
-
 
     </source>
   </tag>

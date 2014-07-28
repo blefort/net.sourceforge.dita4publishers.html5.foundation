@@ -38,8 +38,8 @@
     <value></value>
     <source>
       <file path="html5-foundation/css/normalize.css" />
-      <file path="html5-foundation/css/app.css" />
       <file path="html5-foundation/css/foundation.css" />
+      <file path="html5-foundation/css/app.css" />
     </source>
   </tag>
 
